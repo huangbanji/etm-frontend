@@ -6022,3 +6022,8 @@ Child [1m__offline_serviceworker[39m[22m:
   INFO [567674d6] Running /usr/bin/env echo "Branch staging (at 7e30e214256a30a5b4399c995158077511f07def) deployed as release 20180408133335 by rails" >> /react_apps/etm-frontend/revisions.log as root@122.112.215.179
  DEBUG [567674d6] Command: cd /react_apps/etm-frontend/releases && /usr/bin/env echo "Branch staging (at 7e30e214256a30a5b4399c995158077511f07def) deployed as release 20180408133335 by rails" >> /react_apps/etm-frontend/revisions.log
   INFO [567674d6] Finished in 5.064 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-04-27 17:39:04 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [484d49ae] Running /usr/bin/env mkdir -p /tmp as root@192.168.16.217
+ DEBUG [484d49ae] Command: /usr/bin/env mkdir -p /tmp
