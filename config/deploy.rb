@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 # lock '3.8.0'
 
-set :repo_url, 'git@github.com:hx6007/etm-frontend.git'
+set :repo_url, 'https://github.com/huangbanji/etm-frontend'
 
 # Default value for :linked_files is []
 set :linked_files, fetch(:linked_files, []).push('app/utils/serverUrl.js')
