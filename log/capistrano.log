@@ -6027,3 +6027,42 @@ Child [1m__offline_serviceworker[39m[22m:
   INFO ---------------------------------------------------------------------------
   INFO [484d49ae] Running /usr/bin/env mkdir -p /tmp as root@192.168.16.217
  DEBUG [484d49ae] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-05-13 20:22:53 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc285e9d] Running /usr/bin/env mkdir -p /tmp as root@192.168.1.102
+ DEBUG [bc285e9d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bc285e9d] Finished in 5.441 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-etm-frontend-staging-rails.sh 0.0%
+  INFO Uploading /tmp/git-ssh-etm-frontend-staging-rails.sh 100.0%
+  INFO [984a342f] Running /usr/bin/env chmod 700 /tmp/git-ssh-etm-frontend-staging-rails.sh as root@192.168.1.102
+ DEBUG [984a342f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-etm-frontend-staging-rails.sh
+  INFO [984a342f] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [e53e984a] Running /usr/bin/env git ls-remote https://github.com/huangbanji/etm-frontend HEAD as root@192.168.1.102
+ DEBUG [e53e984a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-etm-frontend-staging-rails.sh" ; /usr/bin/env git ls-remote https://github.com/huangbanji/etm-frontend HEAD )
+ DEBUG [e53e984a] 	b4cdd85ea086a0e2153ba89216370ca35971850c	HEAD
+  INFO [e53e984a] Finished in 9.706 seconds with exit status 0 (successful).
+  INFO [bc4afe14] Running /usr/bin/env mkdir -p /react_apps/etm-frontend/shared /react_apps/etm-frontend/releases as root@192.168.1.102
+ DEBUG [bc4afe14] Command: /usr/bin/env mkdir -p /react_apps/etm-frontend/shared /react_apps/etm-frontend/releases
+  INFO [bc4afe14] Finished in 0.110 seconds with exit status 0 (successful).
+  INFO [75819733] Running /usr/bin/env mkdir -p /react_apps/etm-frontend/shared/app/utils as root@192.168.1.102
+ DEBUG [75819733] Command: /usr/bin/env mkdir -p /react_apps/etm-frontend/shared/app/utils
+  INFO [75819733] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [a273f6fd] Running [ -f /react_apps/etm-frontend/shared/app/utils/serverUrl.js ] as root@192.168.1.102
+ DEBUG [a273f6fd] Command: [ -f /react_apps/etm-frontend/shared/app/utils/serverUrl.js ]
+ DEBUG [a273f6fd] Finished in 0.056 seconds with exit status 1 (failed).
+ ERROR linked file /react_apps/etm-frontend/shared/app/utils/serverUrl.js does not exist on 192.168.1.102
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-05-13 21:05:48 +0800 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [939ce700] Running /usr/bin/env mkdir -p /tmp as root@192.168.88.112
+ DEBUG [939ce700] Command: /usr/bin/env mkdir -p /tmp
+  INFO [939ce700] Finished in 6.639 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-etm-frontend-staging-rails.sh 0.0%
+  INFO Uploading /tmp/git-ssh-etm-frontend-staging-rails.sh 100.0%
+  INFO [6a025b22] Running /usr/bin/env chmod 700 /tmp/git-ssh-etm-frontend-staging-rails.sh as root@192.168.88.112
+ DEBUG [6a025b22] Command: /usr/bin/env chmod 700 /tmp/git-ssh-etm-frontend-staging-rails.sh
+  INFO [6a025b22] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [1742d39c] Running /usr/bin/env git ls-remote https://github.com/huangbanji/etm-frontend HEAD as root@192.168.88.112
+ DEBUG [1742d39c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-etm-frontend-staging-rails.sh" ; /usr/bin/env git ls-remote https://github.com/huangbanji/etm-frontend HEAD )
+ DEBUG [1742d39c] 	fatal: unable to access 'https://github.com/huangbanji/etm-frontend/': Could not resolve host: github.com; Unknown error
